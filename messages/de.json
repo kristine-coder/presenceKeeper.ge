@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "problem": "Das Problem",
+    "howItWorks": "So funktioniert es",
+    "features": "Funktionen",
+    "whyUs": "Warum wir",
+    "contact": "Kontakt",
+    "requestDemo": "Demo anfordern"
+  },
+  "hero": {
+    "badge": "Intelligente Anwesenheit — Jetzt verfügbar",
+    "headlineLine1": "Schluß mit Anwesenheitsbetrug.",
+    "headlineLine2": "Echte Präsenz bestätigt.",
+    "description": "PresenceKeeper nutzt Bluetooth und einen Live-QR-Code, um die physische Anwesenheit der Studierenden zu bestätigen — keine Tricks, keine Umgehungen.",
+    "ctaPrimary": "Demo anfordern",
+    "ctaSecondary": "So funktioniert es",
+    "trust": {
+      "ble": "Verifizierte Anwesenheit",
+      "dual": "Sicherer Check-In",
+      "fraud": "Betrugsresistent",
+      "analytics": "Echtzeit-Analysen"
+    },
+    "dashboard": {
+      "activeSessions": "Aktive Sitzungen",
+      "studentsPresent": "Anwesende Studierende",
+      "attendanceRate": "Anwesenheitsquote",
+      "liveSessions": "Live-Sitzungen",
+      "todaysTrend": "Heutiger Trend"
+    }
+  },
+  "problem": {
+    "badge": "Das Problem",
+    "heading": "Warum traditionelle Anwesenheitssysteme scheitern",
+    "description": "Universitäten weltweit verlieren akademische Glaubwürdigkeit durch vermeidbaren Anwesenheitsbetrug. Bestehende Lösungen lösen nur einen Teil des Problems.",
+    "manual": {
+      "title": "Papierlisten werden gefälscht",
+      "description": "Studierende unterschreiben für abwesende Kommilitonen — und niemand merkt es."
+    },
+    "qr": {
+      "title": "QR-Codes werden geteilt",
+      "description": "Ein Screenshot per WhatsApp ermöglicht jedem, sich von überall einzuchecken."
+    },
+    "visibility": {
+      "title": "Kein Live-Überblick",
+      "description": "Traditionelle Systeme melden die Anwesenheit Stunden später — zu spät zum Handeln."
+    },
+    "analytics": {
+      "title": "Keine nützlichen Daten",
+      "description": "Ohne Anwesenheitsdaten bleiben Fehlzeitmuster unbemerkt, bis Noten fallen."
+    },
+    "teaser": "PresenceKeeper löst das alles auf einmal.",
+    "teaserLink": "So funktioniert es →"
+  },
+  "howItWorks": {
+    "badge": "So funktioniert es",
+    "heading": "Vier Schritte. Null Betrug.",
+    "description": "Ein reibungsloser Ablauf für Studierende, volle Kontrolle für Dozenten — an jeder Stufe unmöglich zu fälschen.",
+    "s1": {
+      "title": "Dozent startet eine Sitzung",
+      "description": "Der Dozent öffnet die App und tippt auf Start — ein Live-QR-Code wird sofort für die Klasse auf dem Bildschirm angezeigt.",
+      "detail": "Bereit in unter 3 Sekunden."
+    },
+    "s2": {
+      "title": "Studierender meldet sich an und authentifiziert sich",
+      "description": "Studierende öffnen ihre dedizierte App, geben E-Mail und Passwort ein und schließen dann die Gesichtserkennung ab, um ihre Identität zu bestätigen.",
+      "detail": "Biometrische Identität bestätigt."
+    },
+    "s3": {
+      "title": "QR scannen & Beacon verbinden",
+      "description": "Der Studierende scannt den angezeigten QR-Code. Dadurch wird automatisch eine Verbindung zum Bluetooth-Beacon des Klassenzimmers hergestellt und die physische Anwesenheit im Raum bestätigt.",
+      "detail": "Anwesenheit im Raum bestätigt."
+    },
+    "s4": {
+      "title": "Fortlaufend überwacht, live angezeigt",
+      "description": "Der Bluetooth-Beacon führt während der gesamten Sitzung fortlaufende Hintergrundprüfungen durch, um sicherzustellen, dass der Studierende im Raum bleibt. Sobald jede Prüfung abgeschlossen ist, aktualisiert sich die Anwesenheit in Echtzeit auf dem Monitor.",
+      "detail": "Live-Präsenz. Live-Dashboard."
+    }
+  },
+  "whyDifferent": {
+    "badge": "Warum wir anders sind",
+    "heading": "Nicht nur eine weitere Anwesenheits-App",
+    "description": "Sehen Sie, wie PresenceKeeper mit veralteten Ansätzen verglichen wird. Der Unterschied ist nicht inkrementell — er ist architektonisch.",
+    "legendFull": "Vollständig unterstützt",
+    "legendPartial": "Teilweise / begrenzt",
+    "legendNone": "Nicht unterstützt",
+    "traditionalLabel": "Traditionell / Manuell",
+    "traditionalSub": "Papierlisten & Unterschriftsbogen",
+    "qrLabel": "Nur-QR-Systeme",
+    "qrSub": "Einfaktor-QR-Check-In",
+    "amasLabel": "PresenceKeeper",
+    "amasSub": "Verifizierte Anwesenheit",
+    "amasBadge": "Empfohlen",
+    "f0": "Physische Anwesenheitsverifizierung",
+    "f1": "Betrugsresistenter Check-In",
+    "f2": "Echtzeit-Admin-Dashboard",
+    "f3": "Rotierende / zeitgesperrte Codes",
+    "f4": "Anwesenheitsanalysen & Berichte",
+    "f5": "Campus-Systemintegration",
+    "f6": "Mobile App für Studierende",
+    "f7": "Dozenten-Sitzungssteuerung",
+    "f8": "Audit-Trail & Datenexport",
+    "f9": "Skalierbar für jede Campusgröße"
+  },
+  "features": {
+    "badge": "Systemfunktionen",
+    "heading": "Alles, was Ihre Universität braucht",
+    "description": "Vom Moment des Sitzungsbeginns bis zum Eingang des Berichts — PresenceKeeper deckt den gesamten Anwesenheits-Lebenszyklus mit zweckgebauten Tools für jede Rolle ab.",
+    "dashboard": {
+      "title": "Echtzeit-Überwachungs-Dashboard",
+      "description": "Live-Ansicht aller aktiven Sitzungen in jedem Gebäude. Sehen Sie, welche Räume aktiv sind, wie viele Studierende anwesend sind und markieren Sie Anomalien.",
+      "tag0": "Live-Daten",
+      "tag1": "Mehrere Räume",
+      "tag2": "Sofortige Warnungen"
+    },
+    "analytics": {
+      "title": "Anwesenheitsanalysen",
+      "description": "Tauchen Sie in individuelle Studentendaten, kursbasierte Trends, Fakultätszusammenfassungen und historische Vergleiche ein.",
+      "tag0": "Trendanalyse",
+      "tag1": "Studentendaten",
+      "tag2": "Fakultätsberichte"
+    },
+    "lecturer": {
+      "title": "Dozenten-Panel",
+      "description": "Einfache, ablenkungsfreie Oberfläche zum Starten von Sitzungen, Überwachen von Echtzeit-Check-Ins und Überprüfen der Anwesenheitshistorie.",
+      "tag0": "Sitzungssteuerung",
+      "tag1": "Live-Check-Ins",
+      "tag2": "Klassenhistorie"
+    },
+    "admin": {
+      "title": "Admin-Kontrollzentrum",
+      "description": "Verwalten Sie universitätsweite Konfigurationen, Benutzerrollen, Abteilungsstrukturen und Systemrichtlinien. Vollständiges Audit-Logging.",
+      "tag0": "Rollenverwaltung",
+      "tag1": "Audit-Protokolle",
+      "tag2": "Richtlinienkontrolle"
+    },
+    "integration": {
+      "title": "Campus-Systemintegration",
+      "description": "Verbinden Sie PresenceKeeper mit Ihrem bestehenden Studenteninformationssystem, LMS oder Identitätsanbieter. Native Unterstützung für SSO, REST-APIs und Webhooks.",
+      "tag0": "Einzel-Anmeldung",
+      "tag1": "LMS-Verbindung",
+      "tag2": "API-Zugang"
+    },
+    "export": {
+      "title": "Datenberichte & Export",
+      "description": "Erstellen Sie formatierte Anwesenheitsberichte pro Kurs, Fakultät oder Semester. Export nach Excel, PDF oder automatische Lieferung.",
+      "tag0": "Excel / PDF",
+      "tag1": "Geplante Berichte",
+      "tag2": "Registrar-Lieferung"
+    }
+  },
+  "whyUniversities": {
+    "badge": "Warum Universitäten uns wählen",
+    "heading": "Gebaut für Institutionen, die Zuverlässigkeit fordern",
+    "description": "PresenceKeeper ist kein Startup-Experiment — es ist zweckentwickelt für die Anforderungen der Hochschulbildung, wo Betriebszeit, Sicherheit und Datenintegrität unverhandelbar sind.",
+    "scalable": {
+      "title": "Skalierbar für jede Universitätsgröße",
+      "description": "Ob 1.000 oder 100.000 Studierende — PresenceKeeper skaliert horizontal. Unsere Infrastruktur passt sich an Spitzeneinschreibungen und gleichzeitige Sitzungen an."
+    },
+    "deployment": {
+      "title": "Individuelle Bereitstellungsoptionen",
+      "description": "PresenceKeeper kann auf eigenen Servern der Universität, in einer privaten Cloud oder in unserer verwalteten SaaS-Umgebung bereitgestellt werden."
+    },
+    "transparency": {
+      "title": "Vollständige Datentransparenz",
+      "description": "Jeder Check-In, jede Admin-Aktion, jede Konfigurationsänderung wird protokolliert. Universitäten behalten das volle Eigentum an ihren Daten."
+    },
+    "fraudPrev": {
+      "title": "Bewährte Betrugsprävention",
+      "description": "Unsere zweistufige Überprüfung macht es unmöglich, Anwesenheit zu erfassen, ohne physisch anwesend zu sein. Es gibt keine Umgehungsmöglichkeiten."
+    },
+    "cost": {
+      "title": "Langfristige Kosteneffizienz",
+      "description": "Eliminieren Sie Papier, manuelle Dateneingabe und Verwaltungsaufwand. Eine Plattform ersetzt fragmentierte Tools in allen Abteilungen."
+    },
+    "infra": {
+      "title": "Flexible Infrastruktur",
+      "description": "BLE-Beacon-Hardware ist optional für Institutionen mit vorhandener Bluetooth-Infrastruktur. Nur-Software-Fallback-Modi sind verfügbar."
+    },
+    "ctaHeading": "Bereit, die Anwesenheit an Ihrer Universität zu modernisieren?",
+    "ctaDescription": "Schließen Sie sich Institutionen an, die Proxy-Anwesenheit eliminiert und vollständige Transparenz gewonnen haben.",
+    "ctaButton": "Demo anfordern"
+  },
+  "requestDemo": {
+    "badge": "Demo anfordern",
+    "heading": "Erleben Sie PresenceKeeper live an Ihrer Universität",
+    "description": "Die Preisgestaltung wird individuell basierend auf Ihrer Universitätsgröße und Studierendenpopulation angepasst. Es gibt keine festen Stufen.",
+    "infoPanelHeading": "Was passiert nach dem Absenden?",
+    "infoStep0": "Unser Team überprüft Ihr Universitätsprofil innerhalb von 1 Werktag.",
+    "infoStep1": "Wir vereinbaren eine 30-minütige Live-Demo, die auf Ihren Anwendungsfall zugeschnitten ist.",
+    "infoStep2": "Sie erhalten einen individuellen Bereitstellungsvorschlag mit Preisen.",
+    "infoStep3": "Keine Verpflichtung erforderlich — erkunden Sie in Ihrem eigenen Tempo.",
+    "pricingNote": "Preishinweis",
+    "pricingText": "PresenceKeeper-Preise hängen von Ihrer Universitätsgröße, Anzahl der eingeschriebenen Studierenden, gewünschtem Bereitstellungsmodell (SaaS oder On-Premise) und Integrationsumfang ab.",
+    "directInquiry": "Direkte Anfrage",
+    "uniName": "Universitätsname",
+    "uniPlaceholder": "z.B. Universität München",
+    "contactPerson": "Kontaktperson",
+    "contactPlaceholder": "Vollständiger Name",
+    "emailLabel": "Institutionelle E-Mail",
+    "emailPlaceholder": "sie@universitaet.de",
+    "studentCount": "Geschätzte Studierendenzahl",
+    "studentPlaceholder": "Ungefähre Einschreibung auswählen",
+    "messageLabel": "Nachricht (optional)",
+    "messagePlaceholder": "Erzählen Sie uns von Ihrem aktuellen Anwesenheitssystem, spezifischen Herausforderungen oder Fragen...",
+    "submit": "Demo anfordern",
+    "submitting": "Wird gesendet...",
+    "noCommitment": "Keine Verpflichtung erforderlich. Wir antworten innerhalb von 1 Werktag.",
+    "range0": "Unter 1.000",
+    "range1": "1.000 – 5.000",
+    "range2": "5.000 – 15.000",
+    "range3": "15.000 – 30.000",
+    "range4": "30.000 – 50.000",
+    "range5": "Über 50.000",
+    "errorMsg": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per E-Mail.",
+    "successHeading": "Anfrage erhalten!",
+    "successDescription": "Wir prüfen Ihre Anfrage und melden uns innerhalb eines Werktages, um Ihre Demo zu planen."
+  },
+  "footer": {
+    "description": "Intelligente Anwesenheitsverfolgung für moderne Universitäten.",
+    "systemStatus": "Alle Systeme betriebsbereit",
+    "sectionProduct": "Produkt",
+    "sectionSystem": "System",
+    "sectionCompany": "Unternehmen",
+    "productProblem": "Das Problem",
+    "productHowItWorks": "So funktioniert es",
+    "productFeatures": "Funktionen",
+    "productWhyDiff": "Warum anders",
+    "productRequestDemo": "Demo anfordern",
+    "sysBle": "BLE-Verifizierung",
+    "sysQr": "QR-Check-In",
+    "sysAdmin": "Admin-Dashboard",
+    "sysAnalytics": "Analysen",
+    "sysIntegrations": "Integrationen",
+    "compAbout": "Über uns",
+    "compContact": "Kontakt",
+    "compPrivacy": "Datenschutzrichtlinie",
+    "compTerms": "Nutzungsbedingungen",
+    "copyright": "PresenceKeeper — Intelligentes Anwesenheits- & Studierendenüberwachungssystem. Alle Rechte vorbehalten.",
+    "requestDemo": "Demo anfordern →"
+  }
+}

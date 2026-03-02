@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "problem": "The Problem",
+    "howItWorks": "How It Works",
+    "features": "Features",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "requestDemo": "Request Demo"
+  },
+  "hero": {
+    "badge": "Smart Attendance — Now Available",
+    "headlineLine1": "Stop proxy attendance.",
+    "headlineLine2": "Verify real presence.",
+    "description": "PresenceKeeper uses Bluetooth and a live QR code to confirm students are physically in class — no fakes, no workarounds.",
+    "ctaPrimary": "Request Demo",
+    "ctaSecondary": "See How It Works",
+    "trust": {
+      "ble": "Verified Presence",
+      "dual": "Secure Check-In",
+      "fraud": "Fraud-Proof",
+      "analytics": "Live Dashboard"
+    },
+    "dashboard": {
+      "activeSessions": "Active Sessions",
+      "studentsPresent": "Students Present",
+      "attendanceRate": "Attendance Rate",
+      "liveSessions": "Live Sessions",
+      "todaysTrend": "Today's Trend"
+    }
+  },
+  "problem": {
+    "badge": "The Problem",
+    "heading": "Why traditional attendance systems fail",
+    "description": "Universities worldwide lose academic credibility and resource efficiency to preventable attendance fraud. Existing solutions only solve part of the problem.",
+    "manual": {
+      "title": "Paper Lists Get Faked",
+      "description": "Students sign in for absent friends — and no one can tell."
+    },
+    "qr": {
+      "title": "QR Codes Get Shared",
+      "description": "A screenshot sent over WhatsApp lets anyone check in from anywhere."
+    },
+    "visibility": {
+      "title": "No Live View",
+      "description": "Traditional systems report attendance hours later — too late to act."
+    },
+    "analytics": {
+      "title": "No Useful Data",
+      "description": "Without attendance data, absenteeism patterns go unnoticed until grades drop."
+    },
+    "teaser": "PresenceKeeper solves all of this at once.",
+    "teaserLink": "See how it works →"
+  },
+  "howItWorks": {
+    "badge": "How It Works",
+    "heading": "Four steps. Zero fraud.",
+    "description": "A seamless flow for students, full control for lecturers — impossible to fake at every stage.",
+    "s1": {
+      "title": "Lecturer Starts a Session",
+      "description": "The lecturer opens the app and taps Start — a live QR code is instantly displayed on screen for the class.",
+      "detail": "Ready in under 3 seconds."
+    },
+    "s2": {
+      "title": "Student Logs In & Authenticates",
+      "description": "Students open their dedicated app, enter their email and password, then complete face authentication to verify their identity before proceeding.",
+      "detail": "Biometric identity confirmed."
+    },
+    "s3": {
+      "title": "Scan QR & Connect to Beacon",
+      "description": "The student scans the displayed QR code. This automatically connects them to the classroom Bluetooth beacon, instantly confirming they are physically in the room.",
+      "detail": "Room presence confirmed."
+    },
+    "s4": {
+      "title": "Monitored Continuously, Displayed Live",
+      "description": "The Bluetooth beacon runs ongoing background checks throughout the session to confirm the student stays in the room. As each check-in is confirmed, attendance updates in real time on the monitor — visible to the lecturer the instant it happens.",
+      "detail": "Live presence. Live dashboard."
+    }
+  },
+  "whyDifferent": {
+    "badge": "Why We're Different",
+    "heading": "Not just another attendance app",
+    "description": "See how PresenceKeeper compares to other attendance methods.",
+    "legendFull": "Fully supported",
+    "legendPartial": "Partial / limited",
+    "legendNone": "Not supported",
+    "traditionalLabel": "Traditional / Manual",
+    "traditionalSub": "Paper rolls & sign-in sheets",
+    "qrLabel": "QR-Only Systems",
+    "qrSub": "Single-factor QR check-in",
+    "amasLabel": "PresenceKeeper",
+    "amasSub": "Smart verified attendance",
+    "amasBadge": "Recommended",
+    "f0": "Physical presence verification",
+    "f1": "Fraud-resistant check-in",
+    "f2": "Real-time admin dashboard",
+    "f3": "Auto-expiring QR codes",
+    "f4": "Attendance analytics & reports",
+    "f5": "Campus system integration",
+    "f6": "Mobile app for students",
+    "f7": "Lecturer session control",
+    "f8": "Audit trail & data export",
+    "f9": "Scalable to any campus size"
+  },
+  "features": {
+    "badge": "Features",
+    "heading": "Everything your university needs",
+    "description": "Everything your university needs to manage attendance — from live tracking to detailed reports.",
+    "dashboard": {
+      "title": "Real-Time Monitoring Dashboard",
+      "description": "Live view of all active sessions across every building. See which rooms are running, how many students are present, and flag anomalies — all from a single screen.",
+      "tag0": "Live data",
+      "tag1": "Multi-room",
+      "tag2": "Instant alerts"
+    },
+    "analytics": {
+      "title": "Attendance Analytics",
+      "description": "Drill into individual student records, per-course trends, faculty-level summaries, and historical comparisons. Identify absenteeism patterns before they become academic problems.",
+      "tag0": "Trend analysis",
+      "tag1": "Student records",
+      "tag2": "Faculty reports"
+    },
+    "lecturer": {
+      "title": "Lecturer Panel",
+      "description": "Simple, distraction-free interface for starting sessions, monitoring real-time check-ins, closing sessions, and reviewing per-class attendance history.",
+      "tag0": "Session control",
+      "tag1": "Live check-ins",
+      "tag2": "Class history"
+    },
+    "admin": {
+      "title": "Admin Control Center",
+      "description": "Manage university-wide configurations, user roles, department structures, and system policies. Full audit logging ensures every change is traceable.",
+      "tag0": "Role management",
+      "tag1": "Audit logs",
+      "tag2": "Policy control"
+    },
+    "integration": {
+      "title": "Campus System Integration",
+      "description": "Connect PresenceKeeper to your existing student system, LMS, or any other platform your university already uses.",
+      "tag0": "Single Sign-On",
+      "tag1": "LMS Connect",
+      "tag2": "API Access"
+    },
+    "export": {
+      "title": "Data Reporting & Export",
+      "description": "Generate formatted attendance reports per course, faculty, or semester. Export to Excel, PDF, or deliver automated reports directly to registrar inboxes.",
+      "tag0": "Excel / PDF",
+      "tag1": "Scheduled reports",
+      "tag2": "Registrar delivery"
+    }
+  },
+  "whyUniversities": {
+    "badge": "Why Universities Choose Us",
+    "heading": "Built for institutions that demand reliability",
+    "description": "PresenceKeeper is built specifically for universities — reliable, secure, and easy to manage at any scale.",
+    "scalable": {
+      "title": "Scalable for Any University Size",
+      "description": "Whether you have 1,000 or 100,000 students, PresenceKeeper scales horizontally. Our infrastructure adapts to peak enrollment and simultaneous sessions without performance degradation."
+    },
+    "deployment": {
+      "title": "Custom Deployment Options",
+      "description": "PresenceKeeper can be deployed on your university's own servers, a private cloud, or our managed SaaS environment. Data sovereignty and compliance requirements are fully respected."
+    },
+    "transparency": {
+      "title": "Full Data Transparency",
+      "description": "Every check-in, every admin action, every config change is logged. Universities retain ownership of their data with full export rights and no vendor lock-in."
+    },
+    "fraudPrev": {
+      "title": "Proven Fraud Prevention",
+      "description": "Our two-step verification makes it impossible for students to mark attendance without being physically present. No workarounds exist."
+    },
+    "cost": {
+      "title": "Long-Term Cost Efficiency",
+      "description": "Eliminate paper, manual entry labor, and administrative overhead. One platform replaces fragmented tools across departments, reducing total cost of ownership significantly."
+    },
+    "infra": {
+      "title": "Flexible Infrastructure",
+      "description": "Bluetooth hardware is optional — PresenceKeeper works with your existing setup and can be rolled out gradually."
+    },
+    "ctaHeading": "Ready to modernize attendance at your university?",
+    "ctaDescription": "Join institutions that have eliminated proxy attendance and gained full visibility over student engagement.",
+    "ctaButton": "Request a Demo"
+  },
+  "requestDemo": {
+    "badge": "Request a Demo",
+    "heading": "See PresenceKeeper live at your university",
+    "description": "Pricing is customized based on your university's size and student population. There are no fixed tiers — we build a deployment plan that fits your institution perfectly.",
+    "infoPanelHeading": "What happens after you submit?",
+    "infoStep0": "Our team reviews your university profile within 1 business day.",
+    "infoStep1": "We schedule a 30-minute live demo tailored to your use case.",
+    "infoStep2": "You receive a custom deployment proposal with pricing.",
+    "infoStep3": "No commitment required — explore at your own pace.",
+    "pricingNote": "Pricing note",
+    "pricingText": "PresenceKeeper pricing depends on your university size, number of enrolled students, desired deployment model (SaaS or on-premise), and integration scope. We don't publish a price list — every institution gets a tailored proposal.",
+    "directInquiry": "Direct inquiry",
+    "uniName": "University Name",
+    "uniPlaceholder": "e.g. University of Malaya",
+    "contactPerson": "Contact Person",
+    "contactPlaceholder": "Full name",
+    "emailLabel": "Institutional Email",
+    "emailPlaceholder": "you@university.edu",
+    "studentCount": "Estimated Student Count",
+    "studentPlaceholder": "Select approximate enrollment",
+    "messageLabel": "Message (optional)",
+    "messagePlaceholder": "Tell us about your current attendance system, any specific challenges, or questions you have...",
+    "submit": "Request Demo",
+    "submitting": "Sending...",
+    "noCommitment": "No commitment required. We respond within 1 business day.",
+    "range0": "Under 1,000",
+    "range1": "1,000 – 5,000",
+    "range2": "5,000 – 15,000",
+    "range3": "15,000 – 30,000",
+    "range4": "30,000 – 50,000",
+    "range5": "Over 50,000",
+    "errorMsg": "Something went wrong. Please try again or email us directly.",
+    "successHeading": "Request received!",
+    "successDescription": "We'll review your inquiry and reach out within one business day to schedule your demo."
+  },
+  "footer": {
+    "description": "Smart attendance tracking for modern universities.",
+    "systemStatus": "All Systems Operational",
+    "sectionProduct": "Product",
+    "sectionSystem": "System",
+    "sectionCompany": "Company",
+    "productProblem": "The Problem",
+    "productHowItWorks": "How It Works",
+    "productFeatures": "Features",
+    "productWhyDiff": "Why Different",
+    "productRequestDemo": "Request Demo",
+    "sysBle": "BLE Verification",
+    "sysQr": "QR Check-In",
+    "sysAdmin": "Admin Dashboard",
+    "sysAnalytics": "Analytics",
+    "sysIntegrations": "Integrations",
+    "compAbout": "About Us",
+    "compContact": "Contact",
+    "compPrivacy": "Privacy Policy",
+    "compTerms": "Terms of Use",
+    "copyright": "PresenceKeeper — Smart Attendance & Student Monitoring System. All rights reserved.",
+    "requestDemo": "Request Demo →"
+  }
+}
