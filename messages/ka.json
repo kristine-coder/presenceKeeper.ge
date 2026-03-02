@@ -1,11 +1,11 @@
 {
   "nav": {
     "problem": "პრობლემა",
-    "howItWorks": "როგორ მუშაობს",
+    "howItWorks": "მუშაობა",
     "features": "ფუნქციები",
     "whyUs": "რატომ ჩვენ",
     "contact": "კონტაქტი",
-    "requestDemo": "დემოს მოთხოვნა"
+    "requestDemo": "დემო"
   },
   "hero": {
     "badge": "ჭკვიანი დასწრება — ახლა ხელმისაწვდომია",

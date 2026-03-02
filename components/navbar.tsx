@@ -51,30 +51,27 @@ export function Navbar() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-4xl"
+      className="fixed top-4 left-0 right-0 z-50 px-4"
     >
       <nav
         ref={navRef}
-        className="relative flex items-center justify-between px-4 py-3 rounded-full bg-white/80 backdrop-blur-md border border-slate-200 shadow-sm"
+        className="relative flex items-center gap-x-6 px-4 h-16 rounded-full bg-white/80 backdrop-blur-md border border-slate-200 shadow-sm mx-auto max-w-[1200px]"
       >
-        {/* Logo */}
-        <a href="#" className="flex items-center gap-2">
-          <Image src="/icon.png" alt="PresenceKeeper" width={32} height={32} className="rounded-lg" />
-          <span className="font-semibold text-slate-900 hidden sm:block">PresenceKeeper</span>
-        </a>
+        {/* Logo — left */}
+        <div className="flex items-center shrink-0 mr-auto">
+          <a href="#" className="flex items-center gap-2 shrink-0">
+            <Image src="/icon.png" alt="PresenceKeeper" width={32} height={32} className="rounded-lg" />
+            <span className="font-semibold text-slate-900 text-base hidden sm:block">PresenceKeeper</span>
+          </a>
+        </div>
 
-        {/* Mobile centered name */}
-        <a href="#" className="absolute left-1/2 -translate-x-1/2 md:hidden font-semibold text-slate-900 text-sm">
-          PresenceKeeper
-        </a>
-
-        {/* Desktop Nav Items */}
-        <div className="hidden md:flex items-center gap-1 relative">
+        {/* Desktop Nav Items — fixed gap, no flex-grow */}
+        <div className="hidden md:flex items-center gap-x-6 shrink-0">
           {navItems.map((item, index) => (
             <a
               key={item.label}
               href={item.href}
-              className="relative px-4 py-2 text-sm text-slate-600 hover:text-slate-900 transition-colors"
+              className="relative px-2.5 py-1.5 text-sm text-slate-600 hover:text-slate-900 transition-colors whitespace-nowrap shrink-0 tracking-normal"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
@@ -91,8 +88,13 @@ export function Navbar() {
           ))}
         </div>
 
+        {/* Mobile centered name — only visible on mobile */}
+        <a href="#" className="absolute left-1/2 -translate-x-1/2 md:hidden font-semibold text-slate-900 text-sm">
+          PresenceKeeper
+        </a>
+
         {/* Right side: Language switcher + CTA */}
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden md:flex items-center gap-3 shrink-0 ml-auto">
           {/* Language Switcher */}
           <div className="relative">
             <button
@@ -100,7 +102,7 @@ export function Navbar() {
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200"
             >
               <Globe className="w-3.5 h-3.5" />
-              <span className="font-medium uppercase tracking-wide text-xs">{locale}</span>
+              <span className="font-medium uppercase text-sm">{locale}</span>
             </button>
 
             <AnimatePresence>
@@ -140,13 +142,15 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <button
-          className="md:hidden p-2 text-slate-500 hover:text-slate-900"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
+        <div className="flex md:hidden items-center ml-auto shrink-0">
+          <button
+            className="p-2 text-slate-500 hover:text-slate-900"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Menu */}

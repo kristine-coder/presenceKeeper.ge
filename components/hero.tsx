@@ -110,7 +110,7 @@ export function Hero() {
   ]
 
   return (
-    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-24 pb-16 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-40 pb-16 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-slate-50 via-white to-slate-50 pointer-events-none" />
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px] bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute top-1/4 left-1/3 w-[400px] h-[400px] bg-indigo-500/8 rounded-full blur-3xl pointer-events-none" />

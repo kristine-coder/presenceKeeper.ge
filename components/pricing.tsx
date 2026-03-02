@@ -110,15 +110,6 @@ export function RequestDemo() {
               <p className="text-sm text-slate-500 leading-relaxed">{t("pricingText")}</p>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-              <p className="text-xs text-slate-400 mb-1">{t("directInquiry")}</p>
-              <a
-                href="mailto:demo@presencekeeper.com"
-                className="text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors"
-              >
-                demo@presencekeeper.com
-              </a>
-            </div>
           </div>
 
           {/* Form panel */}

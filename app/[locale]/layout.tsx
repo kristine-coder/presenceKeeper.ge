@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Manrope, DM_Sans, Instrument_Sans } from "next/font/google"
+import { Manrope, DM_Sans, Instrument_Sans, Noto_Sans_Georgian } from "next/font/google"
 import { Analytics } from "@vercel/analytics/react"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
@@ -23,6 +23,13 @@ const dmSans = DM_Sans({
 const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
   variable: "--font-instrument-sans",
+  display: "swap",
+})
+
+const notoGeorgian = Noto_Sans_Georgian({
+  subsets: ["georgian"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-georgian",
   display: "swap",
 })
 
@@ -63,7 +70,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${manrope.variable} ${dmSans.variable} ${instrumentSans.variable} font-sans antialiased`} suppressHydrationWarning>
+      <body className={`${manrope.variable} ${dmSans.variable} ${instrumentSans.variable} ${notoGeorgian.variable} font-sans antialiased`} suppressHydrationWarning>
         <div className="noise-overlay" aria-hidden="true" />
         <NextIntlClientProvider messages={messages}>
           {children}

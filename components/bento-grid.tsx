@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
-import { CalendarPlus, Fingerprint, QrCode, MonitorCheck, ArrowRight } from "lucide-react"
+import { CalendarPlus, Fingerprint, QrCode, MonitorCheck } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 const steps = [
@@ -148,21 +148,6 @@ export function HowItWorks() {
           ))}
         </motion.div>
 
-        {/* CTA repeater */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.7 }}
-          className="mt-12 flex justify-center"
-        >
-          <a
-            href="#request-demo"
-            className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium shadow-lg shadow-blue-600/30 transition-all duration-200"
-          >
-            See It in Action
-            <ArrowRight className="w-4 h-4" />
-          </a>
-        </motion.div>
       </div>
     </section>
   )

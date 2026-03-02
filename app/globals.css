@@ -126,6 +126,50 @@
   }
 }
 
+/* Georgian locale typography */
+:lang(ka) {
+  font-family: var(--font-georgian), sans-serif;
+  overflow-wrap: break-word;
+  hyphens: none;
+  word-break: normal;
+  letter-spacing: normal;
+}
+
+:lang(ka) h1,
+:lang(ka) h2,
+:lang(ka) h3,
+:lang(ka) h4 {
+  /* !important needed to override inline style={{ fontFamily }} on heading elements */
+  font-family: var(--font-georgian), sans-serif !important;
+  font-weight: 700;
+}
+
+/* Remove overflow clipping for Georgian — characters extend beyond Latin metrics */
+:lang(ka) h1 {
+  line-height: 1.3 !important;
+}
+
+:lang(ka) h1 > span {
+  overflow: visible !important;
+}
+
+/* Slightly smaller headline for Georgian to prevent overflow */
+:lang(ka) h1 {
+  font-size: 2.5rem !important;   /* ~text-4xl */
+}
+
+@media (min-width: 640px) {
+  :lang(ka) h1 {
+    font-size: 3rem !important;   /* ~text-5xl */
+  }
+}
+
+@media (min-width: 1024px) {
+  :lang(ka) h1 {
+    font-size: 3.75rem !important; /* ~text-6xl */
+  }
+}
+
 /* Added noise texture overlay */
 .noise-overlay {
   position: fixed;

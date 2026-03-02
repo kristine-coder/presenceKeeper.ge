@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
-import { Mail, Linkedin, Twitter } from "lucide-react"
+import { Linkedin, Twitter } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 
@@ -56,10 +56,6 @@ export function Footer() {
               <span className="text-xs text-slate-400">{t("systemStatus")}</span>
             </div>
 
-            <div className="flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors">
-              <Mail className="w-4 h-4" />
-              <a href="mailto:demo@presencekeeper.com">demo@presencekeeper.com</a>
-            </div>
           </div>
 
           {/* Links */}
