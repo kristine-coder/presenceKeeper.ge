@@ -11,6 +11,7 @@ const basePath =
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  trailingSlash: true,
   basePath: basePath || undefined,
   assetPrefix: basePath ? `${basePath}/` : undefined,
   typescript: {
