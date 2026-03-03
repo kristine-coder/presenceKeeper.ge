@@ -41,12 +41,24 @@ export function RequestDemo() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setFormState("submitting")
+    const formspreeEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT
     try {
-      const res = await fetch("/api/request-demo", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      })
+      let res: Response
+      if (formspreeEndpoint) {
+        // Formspree for static hosting (GitHub Pages, etc.)
+        res = await fetch(formspreeEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        })
+      } else {
+        // API route (works on Vercel, etc.)
+        res = await fetch("/api/request-demo", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        })
+      }
       if (res.ok) {
         setFormState("success")
       } else {

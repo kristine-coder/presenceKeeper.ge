@@ -13,9 +13,6 @@ import { useLocale } from "next-intl"
 const localeConfig = {
   en: { label: "English", flag: "🇬🇧" },
   ka: { label: "ქართული", flag: "🇬🇪" },
-  de: { label: "Deutsch", flag: "🇩🇪" },
-  fr: { label: "Français", flag: "🇫🇷" },
-  es: { label: "Español", flag: "🇪🇸" },
 } as const
 
 export function Navbar() {
