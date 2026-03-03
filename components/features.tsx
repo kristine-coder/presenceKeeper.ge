@@ -135,12 +135,12 @@ export function Features() {
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 px-7 py-5 flex items-end justify-between">
             <div>
-              <p className="text-white text-sm font-semibold leading-tight">Attendance in seconds, not minutes</p>
-              <p className="text-slate-300 text-xs mt-0.5">Students check in via QR code or BLE — no paper, no friction</p>
+              <p className="text-white text-sm font-semibold leading-tight">{t("imageCaption")}</p>
+              <p className="text-slate-300 text-xs mt-0.5">{t("imageSub")}</p>
             </div>
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="text-white text-xs font-medium">Live session</span>
+              <span className="text-white text-xs font-medium">{t("imageStatus")}</span>
             </div>
           </div>
         </motion.div>
@@ -194,7 +194,7 @@ export function Features() {
           transition={{ duration: 0.5, delay: 0.7 }}
           className="mt-14 flex flex-col items-center gap-3 text-center"
         >
-          <p className="text-slate-500 text-sm">Ready to see PresenceKeeper at your university?</p>
+          <p className="text-slate-500 text-sm">{t("ctaText")}</p>
           <a
             href="#request-demo"
             className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium shadow-lg shadow-blue-600/30 transition-all duration-200"

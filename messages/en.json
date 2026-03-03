@@ -105,6 +105,10 @@
     "badge": "Features",
     "heading": "Everything your university needs",
     "description": "Everything your university needs to manage attendance — from live tracking to detailed reports.",
+    "imageCaption": "Attendance in seconds, not minutes",
+    "imageSub": "Students check in via QR code or BLE — no paper, no friction",
+    "imageStatus": "Live session",
+    "ctaText": "Ready to see PresenceKeeper at your university?",
     "dashboard": {
       "title": "Real-Time Monitoring Dashboard",
       "description": "Live view of all active sessions across every building. See which rooms are running, how many students are present, and flag anomalies — all from a single screen.",
