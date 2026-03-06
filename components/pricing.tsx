@@ -29,7 +29,7 @@ export function RequestDemo() {
   ]
 
   const infoSteps = [
-    t("infoStep0"), t("infoStep1"), t("infoStep2"), t("infoStep3"),
+    t("infoStep0"), t("infoStep2"),
   ]
 
   const handleChange = (
