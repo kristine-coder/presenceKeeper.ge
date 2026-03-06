@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl"
 
 type Status = "yes" | "no" | "partial"
 
-const featureKeys = ["f0", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9"] as const
+const featureKeys = ["f0", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10"] as const
 
 const columnData: {
   key: "traditional" | "qr" | "amas"
@@ -23,7 +23,7 @@ const columnData: {
     headerColor: "text-slate-700",
     borderColor: "border-slate-200",
     bgColor: "bg-white",
-    values: ["no", "no", "no", "no", "no", "no", "no", "partial", "no", "partial"],
+    values: ["no", "no", "no", "no", "no", "no", "no", "partial", "no", "partial", "no"],
   },
   {
     key: "qr",
@@ -31,7 +31,7 @@ const columnData: {
     headerColor: "text-slate-700",
     borderColor: "border-slate-200",
     bgColor: "bg-white",
-    values: ["no", "no", "partial", "partial", "partial", "no", "yes", "partial", "partial", "partial"],
+    values: ["no", "no", "partial", "partial", "partial", "no", "yes", "partial", "partial", "partial", "no"],
   },
   {
     key: "amas",
@@ -39,7 +39,7 @@ const columnData: {
     headerColor: "text-blue-600",
     borderColor: "border-blue-300",
     bgColor: "bg-blue-50",
-    values: ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+    values: ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
   },
 ]
 

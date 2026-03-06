@@ -99,7 +99,8 @@
     "f6": "Mobile app for students",
     "f7": "Lecturer session control",
     "f8": "Audit trail & data export",
-    "f9": "Scalable to any campus size"
+    "f9": "Scalable to any campus size",
+    "f10": "Face recognition"
   },
   "features": {
     "badge": "Features",
